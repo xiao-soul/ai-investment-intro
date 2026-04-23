@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgriFuture AI · AI Agriculture Entrepreneur</title>
+    <title>AgriFuture AI · 智耘未来 · AI Agriculture Entrepreneur</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         * {
@@ -25,7 +25,7 @@
             margin: 0 auto;
         }
 
-        /* Navigation bar — Minimalist lines */
+        /* 导航栏 */
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -59,22 +59,6 @@
             color: #2563eb;
         }
 
-        /* 语言切换 */
-        .lang-switch {
-            font-size: 0.9rem;
-            color: #64748b;
-        }
-
-        .lang-switch a {
-            text-decoration: none;
-            color: #475569;
-            transition: color 0.2s;
-        }
-
-        .lang-switch a:hover {
-            color: #2563eb;
-        }
-
         /* GitHub链接 */
         .github-link {
             margin-left: 1rem;
@@ -88,7 +72,7 @@
             color: #2563eb;
         }
 
-        /* Main content area — No cards, only borders/dividers */
+        /* 主要内容区 */
         h1 {
             font-size: 2.8rem;
             font-weight: 600;
@@ -167,6 +151,21 @@
             padding-top: 1.5rem;
         }
 
+        /* 双语内容样式 */
+        .bilingual {
+            margin: 1.5rem 0;
+        }
+
+        .chinese {
+            margin-bottom: 0.5rem;
+        }
+
+        .english {
+            color: #64748b;
+            font-style: italic;
+            font-size: 0.95rem;
+        }
+
         @media (max-width: 700px) {
             body { padding: 1rem; }
             h1 { font-size: 2rem; }
@@ -178,45 +177,52 @@
 <body>
 <div class="container">
     <nav class="navbar">
-        <div class="logo">AgriFuture AI · Smart Agriculture</div>
+        <div class="logo">智耘未来 · AgriFuture AI</div>
         <div class="nav-links">
-            <a href="index-en.html">Home</a>
-            <a href="pages/story-en.html">Story & Projects</a>
-            <a href="pages/contact-en.html">Investment Contact</a>
+            <a href="index.html">首页 / Home</a>
+            <a href="pages/story.html">故事·项目 / Story</a>
+            <a href="pages/contact.html">联系投资 / Contact</a>
         </div>
-        <div class="lang-switch">
-            <a href="index-zh.html">中文</a> | 
-            <a href="index.html">English</a>
-        </div>
-        <a href="https://github.com/xiao-soul/ai-investment-intro" class="github-link" title="Visit my GitHub profile" target="_blank">
+        <a href="https://github.com/xiao-soul/ai-investment-intro" class="github-link" title="GitHub Profile" target="_blank">
             <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
             </svg>
         </a>
     </nav>
 
-    <h1>AI Application Entrepreneur<br>Vertical Farming · Intelligent Decision</h1>
-    <div class="subhead">University student focused on AI in agriculture. Achieved key preliminary results, project urgently needs funding and resources to advance.</div>
-
-    <div class="section">
-        <div class="section-title">Current Focus</div>
-        <div class="desc-text">Smart Pest Detection · Yield Prediction Models · Low-cost Edge AI Devices · Agricultural Decision Knowledge Graph</div>
+    <h1>AI农业创业者<br>AI Agriculture Entrepreneur</h1>
+    
+    <div class="bilingual">
+        <div class="chinese subhead">在校大学生，专注农业AI落地。已取得初步关键成果，项目急需资金与资源推进。</div>
+        <div class="english">University student focused on AI in agriculture. Achieved key preliminary results, project urgently needs funding and resources to advance.</div>
     </div>
 
     <div class="section">
-        <div class="section-title">Current Status</div>
-        <div class="desc-text">Prototype validation completed, farm pilot data shows positive results. Project advancing rapidly, <span class="highlight">open to angel round funding and industry collaboration</span>.</div>
+        <div class="section-title">目前方向 / Current Focus</div>
+        <div class="bilingual">
+            <div class="chinese desc-text">智慧植保识别 · 产量预测大模型 · 低成本边缘AI设备 · 农事决策知识图谱</div>
+            <div class="english">Smart Pest Detection · Yield Prediction Models · Low-cost Edge AI Devices · Agricultural Decision Knowledge Graph</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">当前状态 / Current Status</div>
+        <div class="bilingual">
+            <div class="chinese desc-text">原型验证完成，农场试点数据积极。项目高速推进中，<span class="highlight">开放天使轮融资及产业合作</span>。</div>
+            <div class="english">Prototype validation completed, farm pilot data shows positive results. Project advancing rapidly, <span class="highlight">open to angel round funding and industry collaboration</span>.</div>
+        </div>
     </div>
 
     <hr>
 
     <div class="btn-group">
-        <a href="pages/story-en.html" class="btn">My Story</a>
-        <a href="pages/story-en.html#project" class="btn">Project Details</a>
-        <a href="pages/contact-en.html" class="btn">Investment Contact</a>
+        <a href="pages/story.html" class="btn">我的故事 / My Story</a>
+        <a href="pages/story.html#project" class="btn">项目详情 / Project Details</a>
+        <a href="pages/contact.html" class="btn">投资联系 / Investment Contact</a>
     </div>
 
     <footer>
+        务实落地 · 重塑田间生产力 — 欢迎深度交流<br>
         Practical Implementation · Reshaping Field Productivity — Welcome Deep Communication
     </footer>
 </div>
