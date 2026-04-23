@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>故事与项目 · 智耘未来</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * { margin:0; padding:0; box-sizing: border-box; }
+        body { background: #ffffff; font-family: 'Inter', system-ui, sans-serif; color: #1e293b; line-height: 1.5; padding: 2rem 1.5rem; }
+        .container { max-width: 1100px; margin: 0 auto; }
+        .navbar { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; padding-bottom: 1.2rem; border-bottom: 1px solid #e2e8f0; margin-bottom: 2.5rem; }
+        .logo { font-size: 1.5rem; font-weight: 600; color: #0f172a; }
+        .nav-links { display: flex; gap: 2rem; }
+        .nav-links a { text-decoration: none; color: #475569; transition: color 0.2s; }
+        .nav-links a:hover { color: #2563eb; }
+        .lang-switch { font-size: 0.9rem; color: #64748b; }
+        .lang-switch a { text-decoration: none; color: #475569; transition: color 0.2s; }
+        .lang-switch a:hover { color: #2563eb; }
+        h2 { font-size: 2rem; font-weight: 500; margin: 1.8rem 0 1rem; letter-spacing: -0.3px; border-left: 3px solid #3b82f6; padding-left: 1rem; }
+        h3 { font-size: 1.2rem; font-weight: 500; margin: 1.2rem 0 0.5rem; color: #0f172a; }
+        .story-text { margin: 1rem 0; color: #334155; line-height: 1.65; }
+        .highlight-bg { background: #dbeafe; padding: 0.1rem 0.3rem; }
+        hr { margin: 2rem 0; border: 0; height: 1px; background: #e2e8f0; }
+        footer { margin-top: 3rem; text-align: center; color: #64748b; font-size: 0.85rem; border-top: 1px solid #e2e8f0; padding-top: 1.5rem; }
+        .btn { background: transparent; border: 1px solid #cbd5e1; padding: 0.5rem 1.2rem; text-decoration: none; color: #1e293b; display: inline-block; margin-top: 0.5rem; transition: 0.2s; }
+        .btn:hover { background: #f8fafc; }
+        @media (max-width: 700px) { body { padding: 1rem; } h2 { font-size: 1.5rem; } .nav-links { gap: 1.2rem; } .navbar { flex-direction: column; gap: 0.8rem; } }
+    </style>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar">
+        <div class="logo">智耘未来 · AI农业</div>
+        <div class="nav-links">
+            <a href="../index-zh.html">首页</a>
+            <a href="story.html">故事·项目</a>
+            <a href="contact.html">联系投资</a>
+        </div>
+        <div class="lang-switch">
+            <a href="story.html">中文</a> | 
+            <a href="story-en.html">English</a>
+        </div>
+    </nav>
+
+    <h2>创业初心 · 从土地到算法</h2>
+    <div class="story-text">
+        作为一名在校大学生，我在实验室与田野之间反复往返，亲眼见到传统农业对精准决策的巨大需求。2024年我们开始将最新AI技术引入植保监测与产量预测，希望用低成本、高可靠性的智能工具为农户与农业企业提供实时决策支持。目前团队已形成算法、嵌入式、农学交叉的紧凑结构。
+    </div>
+
+    <h2>对AI行业的看法</h2>
+    <div class="story-text">
+        大模型浪潮不应只停留在对话和生成，更应下沉到产业"最后一公里"。农业场景数据复杂、变量多，需要轻量化、鲁棒性强的AI。我们坚持"先垂直渗透，再横向扩展"，专注解决真实痛点，而非追逐概念。
+    </div>
+
+    <h2>解决的痛点</h2>
+    <div class="story-text">
+        · 病虫害识别延迟 & 误判导致减产 → 我们的边缘AI盒子可在田间实时识别并给出处置建议。<br>
+        · 产量预估依赖经验 → 基于卫星+无人机多模态数据，构建时序预测模型，准确率提升20%以上。<br>
+        · 农事记录数字化成本高 → 自研低代码表单+AI语音填报，数据闭环驱动决策。
+    </div>
+
+    <h2 id="project">项目关键技术进展</h2>
+    <div class="story-text">
+        完成农业视觉数据集（不含敏感地理信息）积累超5万张，模型mAP达86.7%。<br>
+        边缘推理框架已适配RK3588及jetson系列，端到端延迟＜200ms。<br>
+        与两家省级农业合作社达成试点意向，田间部署反馈积极。<br>
+        <span class="highlight-bg">因保密协议，具体算法架构与关键数据暂不公开，可线下签署NDA后详聊。</span>
+    </div>
+
+    <h2>个人优势</h2>
+    <div class="story-text">
+        连续两年参与国家级大创项目，拥有AI顶会workshop论文一篇，熟悉从模型训练到嵌入式部署全链路。同时具备创业者韧性，直接对接一线农户需求，擅长快速迭代MVP。
+    </div>
+
+    <h2>创业理念</h2>
+    <div class="story-text">
+        务实落地、不炒概念、专注商业化。每一个算法改进都必须能转化为田间实际效益。我们承诺，早期投资人将获得优先体验权及深度技术同步。
+    </div>
+
+    <hr>
+    <div style="text-align: right;">
+        <a href="contact.html" class="btn">联系投资 · 预约交流</a>
+    </div>
+    <footer>
+        信任源于透明 · 欢迎产业方与资本方共创智慧农业未来
+    </footer>
+</div>
+</body>
+</html>

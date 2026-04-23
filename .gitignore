@@ -1,0 +1,38 @@
+# 排除所有文本文件
+*.txt
+
+# 排除设计文档
+设计原则.md
+
+# 排除系统文件
+.DS_Store
+Thumbs.db
+
+# 排除编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 排除临时文件
+*.tmp
+*.temp
+
+# 排除日志文件
+*.log
+
+# 排除备份文件
+*.bak
+*.backup
+
+# 只保留必要的HTML、CSS、JS和图片文件
+# 允许的文件类型：
+# *.html
+# *.css  
+# *.js
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.svg
+# *.ico
