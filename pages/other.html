@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgriFuture AI · 智耘未来 · AI Agriculture Entrepreneur</title>
+    <title>其他页面 · 智耘未来 · More Pages</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         * {
@@ -166,11 +166,48 @@
             font-size: 0.95rem;
         }
 
+        /* 页面链接样式 */
+        .page-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .page-item {
+            border: 1px solid #e2e8f0;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            transition: all 0.2s;
+        }
+
+        .page-item:hover {
+            border-color: #cbd5e1;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .page-item h3 {
+            margin-bottom: 0.5rem;
+            color: #0f172a;
+        }
+
+        .page-item p {
+            color: #64748b;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .coming-soon {
+            background: #f8fafc;
+            border-color: #e2e8f0;
+        }
+
         @media (max-width: 700px) {
             body { padding: 1rem; }
             h1 { font-size: 2rem; }
             .navbar { flex-direction: column; gap: 0.8rem; }
             .nav-links { gap: 1.2rem; }
+            .page-links { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -179,10 +216,10 @@
     <nav class="navbar">
         <div class="logo">智耘未来 · AgriFuture AI</div>
         <div class="nav-links">
-            <a href="index.html">首页 / Home</a>
-            <a href="pages/story.html">故事·项目 / Story</a>
-            <a href="pages/contact.html">联系投资 / Contact</a>
-            <a href="pages/other.html">其他页面 / More</a>
+            <a href="../index.html">首页 / Home</a>
+            <a href="story.html">故事·项目 / Story</a>
+            <a href="contact.html">联系投资 / Contact</a>
+            <a href="other.html">其他页面 / More</a>
         </div>
         <a href="https://github.com/xiao-soul/ai-investment-intro" class="github-link" title="GitHub Profile" target="_blank">
             <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
@@ -191,40 +228,74 @@
         </a>
     </nav>
 
-    <h1>AI农业创业者<br>AI Agriculture Entrepreneur</h1>
+    <h1>其他页面 · More Pages</h1>
     
     <div class="bilingual">
-        <div class="chinese subhead">在校大学生，专注农业AI落地。已取得初步关键成果，项目急需资金与资源推进。</div>
-        <div class="english">University student focused on AI in agriculture. Achieved key preliminary results, project urgently needs funding and resources to advance.</div>
+        <div class="chinese subhead">这里是未来新增内容的入口页面。随着项目发展，我们将在这里添加更多相关信息。</div>
+        <div class="english">This is the entry page for future content additions. As the project develops, we'll add more relevant information here.</div>
     </div>
 
     <div class="section">
-        <div class="section-title">目前方向 / Current Focus</div>
-        <div class="bilingual">
-            <div class="chinese desc-text">智慧植保识别 · 产量预测大模型 · 低成本边缘AI设备 · 农事决策知识图谱</div>
-            <div class="english">Smart Pest Detection · Yield Prediction Models · Low-cost Edge AI Devices · Agricultural Decision Knowledge Graph</div>
+        <div class="section-title">页面导航 / Page Navigation</div>
+        
+        <div class="page-links">
+            <div class="page-item">
+                <h3>技术文档 / Technical Docs</h3>
+                <p>详细的技术实现方案和算法说明</p>
+                <p>Detailed technical implementation and algorithm explanations</p>
+                <div class="btn-group">
+                    <a href="#" class="btn coming-soon">即将推出 / Coming Soon</a>
+                </div>
+            </div>
+            
+            <div class="page-item">
+                <h3>项目演示 / Project Demo</h3>
+                <p>实际应用场景的视频演示和效果展示</p>
+                <p>Video demonstrations and effect showcases of real application scenarios</p>
+                <div class="btn-group">
+                    <a href="#" class="btn coming-soon">即将推出 / Coming Soon</a>
+                </div>
+            </div>
+            
+            <div class="page-item">
+                <h3>团队介绍 / Team Introduction</h3>
+                <p>核心团队成员背景和专业能力介绍</p>
+                <p>Introduction to core team members' backgrounds and professional capabilities</p>
+                <div class="btn-group">
+                    <a href="#" class="btn coming-soon">即将推出 / Coming Soon</a>
+                </div>
+            </div>
+            
+            <div class="page-item">
+                <h3>合作伙伴 / Partners</h3>
+                <p>现有合作伙伴和未来合作机会</p>
+                <p>Current partners and future collaboration opportunities</p>
+                <div class="btn-group">
+                    <a href="#" class="btn coming-soon">即将推出 / Coming Soon</a>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="section">
-        <div class="section-title">当前状态 / Current Status</div>
+        <div class="section-title">未来规划 / Future Plans</div>
         <div class="bilingual">
-            <div class="chinese desc-text">原型验证完成，农场试点数据积极。项目高速推进中，<span class="highlight">开放天使轮融资及产业合作</span>。</div>
-            <div class="english">Prototype validation completed, farm pilot data shows positive results. Project advancing rapidly, <span class="highlight">open to angel round funding and industry collaboration</span>.</div>
+            <div class="chinese desc-text">随着项目进展，我们将陆续添加：技术白皮书、市场分析、投资回报分析、用户案例等更多内容。</div>
+            <div class="english">As the project progresses, we'll gradually add: technical white papers, market analysis, ROI analysis, user cases, and more content.</div>
         </div>
     </div>
 
     <hr>
 
     <div class="btn-group">
-        <a href="pages/story.html" class="btn">我的故事 / My Story</a>
-        <a href="pages/story.html#project" class="btn">项目详情 / Project Details</a>
-        <a href="pages/contact.html" class="btn">投资联系 / Investment Contact</a>
+        <a href="../index.html" class="btn">返回首页 / Back to Home</a>
+        <a href="story.html" class="btn">查看故事 / View Story</a>
+        <a href="contact.html" class="btn">联系投资 / Contact Investment</a>
     </div>
 
     <footer>
-        务实落地 · 重塑田间生产力 — 欢迎深度交流<br>
-        Practical Implementation · Reshaping Field Productivity — Welcome Deep Communication
+        持续更新 · 敬请关注 — 欢迎访问我们的GitHub仓库<br>
+        Continuously Updated · Stay Tuned — Welcome to Visit Our GitHub Repository
     </footer>
 </div>
 </body>
